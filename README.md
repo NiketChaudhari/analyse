@@ -16,3 +16,20 @@ Analyse, is a simple visualization tool.
 - Column-wise MIN,AVERAGE,MAX and PERCENTAGE summary.
 
 ### Click on any chart, to preview the chart for next qualitative or quantitative column.
+
+
+
+# 
+### Libraries Used :
+#### react-router-dom
+#### react-chartjs-2
+#### dataframe-js
+#### xlsx
+#### react-table-6
+#### react-notifications
+#### react-icons
+
+
+
+# 
+#### Website : https://niketchaudhari.github.io/My-Portfolio/
