@@ -2,13 +2,13 @@
 Analyse, is a simple visualization tool.
 
 
-## 1) : Select/Browse XLSX or CSV file
+## 1)  Select/Browse XLSX or CSV file
 ![My animated logo](https://github.com/NiketChaudhari/analyse/blob/main/Log/First.PNG)
  
-## 2) : Table View (Searching or filtering operation)
+## 2)  Table View (Searching or filtering operation)
 ![My animated logo](https://github.com/NiketChaudhari/analyse/blob/main/Log/Second.PNG)
 
-## 3) : Graph View
+## 3)  Graph View
 ![My animated logo](https://github.com/NiketChaudhari/analyse/blob/main/Log/Third.PNG)
 - Bar Chart
 - Line Chart
