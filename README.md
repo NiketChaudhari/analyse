@@ -32,4 +32,4 @@ Analyse, is a simple visualization tool.
 
 
 # 
-#### Website : https://niketchaudhari.github.io/My-Portfolio/
+#### Website : https://niketchaudhari.github.io/analyse/
