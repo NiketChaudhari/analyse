@@ -1,5 +1,5 @@
 # Analyse :
-Connect app, A simple file explorer of Host system with basic functionalities and is used to exchange data in a local area network environment.
+Analyse, is a simple visualization tool.
 
 
 ## Step 1 : Select/Browse XLSX or CSV file
