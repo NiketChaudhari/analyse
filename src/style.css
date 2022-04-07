@@ -1,0 +1,474 @@
+body{
+  margin: 0;
+  padding: 0;
+  cursor: url("../public/Cursor.png"),auto;
+}
+
+
+
+/* ======================  FILE_UPLOAD  ====================== */
+
+.FU_DIV {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-image: url("../public/Graph.png");
+}
+
+.FU_DIV_01 {
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.FU_DIV_02 {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+}
+
+.FU_FOOTER {
+  width: 100%;
+  min-height: calc(40px);
+  display: flex;
+  flex-direction: row;
+  background-color: none;
+  align-items: center;
+  justify-content: center;
+  position:fixed;
+  bottom:0;
+  color: blue;
+  font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.FU_DIV_02_INPUT {
+  width: 50%;
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  background-image: linear-gradient(90deg, #c83cd5 0% , #c4781b 100%);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-family: monospace,'Courier New', Courier;
+  font-weight: bold;
+  cursor: url("../public/Cursor.png"),auto;
+}
+
+.FU_DIV_02_BUTTON {
+  width : 200px;
+  font-size: 35px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-top: 20px;
+  background-image: linear-gradient(90deg, #db8915 0% , #0011ff 100%);
+  font-family: monospace,'Courier New', Courier;
+  font-weight: bold;
+  cursor: url("../public/Cursor.png"),auto;
+}
+
+.FU_DIV_02_BUTTON:hover {
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  animation:slidebg 5s linear infinite;
+}
+
+.FU_DIV_01_SPAN {
+  font-size: 60px;
+  font-weight: bolder;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  padding-inline: 3px;
+}
+
+.FU_DIV_01_SPAN:hover {
+  color: blue;
+  transform: scale(1.5);
+  text-transform: uppercase;
+}
+
+
+
+/* ======================  TABLE  ====================== */
+
+.DASH_DIV_02_TABLE {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.TABLE_HEADER{
+  color: rgb(51, 22, 57);
+  font-size: 15px;
+  font-weight: bold;
+  font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.TABLE_COLUMN{
+  color: rgb(114, 58, 16);
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+/* ======================  DASHBOARD  ====================== */
+
+.DASH_DIV {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.DASH_DIV_01 {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background: linear-gradient(
+    to right, 
+    rgb(132, 228, 76), 
+    rgb(102, 178, 228)
+  );
+}
+
+.DASH_DIV_01_01 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 80%;
+  color:rgb(255, 255, 255);
+  font-size: 25px;
+  padding-left: 20px;
+  font-family: monospace,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: center;
+}
+
+.DASH_DIV_01_02 {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 20%;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  font-family: "Dank Mono", ui-monospace, monospace;
+}
+
+.DASH_DIV_01_02_BUTTON {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  width: 35%;
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  color:rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  border-radius: 10px;
+  border: 2px solid white;
+  cursor: url("../public/Cursor.png"),auto;
+}
+
+
+@keyframes slidebg {
+  to {
+    background-position:50vw;
+  }
+}
+
+
+.DASH_DIV_01_02_BUTTON:hover {
+  color:rgb(255, 255, 255);
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  animation:slidebg 5s linear infinite;
+  /* transform: scaleX(1.2); */
+}
+
+.DASH_DIV_02 {
+  display: flex;
+  flex-direction: row;
+  height: 45vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.DASH_DIV_02_01 {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.DASH_DIV_02_02 {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.DASH_DIV_03 {
+  display: flex;
+  flex-direction: row;
+  height: 45vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.DASH_DIV_03_01 {
+  flex-direction: column;
+  height: 90%;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.DASH_DIV_03_01::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.DASH_DIV_03_02 {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.DASHBOARD_DIV_04 {
+  display: flex;
+  flex-direction: row;
+  height: 45vh;
+  width: 100%;
+  background-color: rgb(197, 200, 221);
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.DASH_EXCEPTION {
+  color: rgb(47, 64, 192);
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+/* ======================  BAR  ====================== */
+
+.CHART_DIV {
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+/* ======================  COLUMN_INFO_NUM  ====================== */
+
+.COLUMN_INFO_DIV_01 {
+  display :flex;
+  flex-direction: column;  
+  height: 150px;
+  width: 80%;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  border-radius: 10px;
+}
+
+.COLUMN_INFO_DIV_02 {
+  display :flex;
+  flex-direction: column;
+  height: 50px;
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(230, 169, 15);
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.COLUMN_INFO_DIV_03 {
+  display :flex;
+  flex-direction: row;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(100, 119, 213);
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.COLUMN_INFO_DIV_03_01 {
+  display :flex;
+  flex-direction: column;
+  height: 80%;
+  width: 25%;
+  background-color: rgb(209, 172, 128);
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  border-radius: 10px;
+}
+
+.COLUMN_INFO_DIV_03_SPAN_01 {
+  display :flex;
+  font-size: 22px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 5px;
+}
+
+.COLUMN_INFO_DIV_03_SPAN_02 {
+  font-size: 16px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding-top: 3px;
+}
+
+
+
+/* ======================  COLUMN_INFO_CHAR  ====================== */
+
+.COLUMN_INFO_DIV_03_CHAR {
+  width: 100%;
+  background-color: rgb(100, 119, 213);
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  border-radius: 0px 0px 5px 5px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.COLUMN_INFO_DIV_03_CHAR::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.COLUMN_INFO_DIV_03_CHAR_DIV {
+  display :flex;
+  flex-direction: row;
+  height: 35px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(209, 172, 128);
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.COLUMN_INFO_DIV_03_CHAR_DIV_SPAN_01 {
+  display :flex;
+  flex-direction: row;
+  width: 70%;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+  padding-left: 10px;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.COLUMN_INFO_DIV_03_CHAR_DIV_SPAN_02 {
+  display :flex;
+  flex-direction: row;
+  width: 30%;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  align-content: center;
+  padding-right: 10px;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.DASHBOARD_DIV_04_02 {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.DASHBOARD_DIV_CHARTS {
+  flex-direction: row;
+  width: 85%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
